@@ -5,6 +5,7 @@
     <meta name="viewport"content="width=device-widt initial-scale=1.0">
     <title> Алина Фитисова - фрилансер, junior Front-end Developer</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
@@ -28,16 +29,16 @@
 
             <div class="hero-content">
                 <div class="hero-tex">
-                    <span class="hero-subtitle">Фрилансер</span>
-                    <h1 class="hero-title">Алина Фитисова</h1>
-                    <p class="hero-description">
+                    <span class="hero-subtitle wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">Junior Frontend developer</span>
+                    <h1 class="hero-title wow animate__animated animate__fadeInRight" data-wow-delay="0.4s">Алина Фитисова</h1>
+                    <p class="hero-description wow animate__animated animate__fadeInRight" data-wow-delay="0.6s">
                         Разрабатываю сайты для стартапаа так же малого и среднего бизнеса. У меня можно заказать верстку и полную front-end часть разработки небольшого сайта или
                         интернет-магазина
                     </p>
-                    <button class="button hero-button">Посмотреть портфолио</button>
+                    <button class="button hero-button wow animate__animated animate__fadeInRight" data-wow-delay="0.8s">Посмотреть портфолио</button>
                 </div>
                 <!-- /.hero-tex -->
-                <div class="hero-avatar"></div>
+                <div class="hero-avatar wow animate__animated animate__fadeIn" data-wow-delay="1.5s"></div>
                 <!-- /.hero-avatar -->
             </div>
             <!-- /.hero-content -->
@@ -96,11 +97,52 @@
                     <h4 class="form-title">Можете просто оставить заявку, я позвоню вам сегодня</h4>
                     <input type="text" class="input input-name" placeholder="Ваше имя">
                     <input type="text" class=" input input-phone" placeholder="Ваш телефон">
-                    <button class="button">Бесплатная консультация</button>
+                    <button class="button form-button">Бесплатная консультация</button>
                 </form>
+
+                <div class="contacts-text">
+                    <div class="contacts-data">
+                        <div class="contacts-phone">
+                            <h4 class="contacts-title">Телефон</h4>
+                            <a href="tel:+380507646291" class="contacts-link">+38 050-764-62-91</a>
+                        </div>
+                        <!-- /.contacts-phone -->
+                        <div class="contacts-mail">
+                            <h4 class="contacts-title">Почта</h4>
+                            <a href="mailto:alinafitisova@gmail.com" class="contacts-link" >alinafitisova@gmail.com</a>
+
+                        </div>
+                        <!-- /.contats-mail -->
+                        <div class="contacts-social">
+                            <h4 class="contacts-title">
+                                Соцсети
+                            </h4>
+                            <a href="https://www.instagram.com/alina_fitisova/" class="contacts-link">inst./alina_fitisova</a>
+                            <a href="https://www.facebook.com/alina.fitisova" class="contacts-link">fb./alina.fitisova</a>
+                            <a href="https://vk.com/id27722420" class="contacts-link">vk.com/alyafit</a>
+                        </div>
+                        <!-- /.contats-social -->
+                    </div>
+                    <!-- /.contats-data -->
+                    <div class="social-links">
+                        <a href="https://github.com/alinafitisova" class="social-link"><img src="img\social\github.svg" alt="github"></a>
+                        <a href="https://github.com/alinafitisova" class="social-link"><img src="img\social\twitter.svg" alt="twitter"></a>
+                        <a href="https://www.instagram.com/alina_fitisova/" class="social-link"><img src="img\social\instagram.svg"
+                                alt="instagram"></a>
+                        <a href="https://www.facebook.com/alina.fitisova" class="social-link"><img src="img\social\facebook.svg"
+                                alt="facebook"></a>
+                    </div>
+                    <!-- /.social-links -->
+                    <a href="#" class="contacts-policy">Политика конфиденциальности</a>
+                </div>
+                <!-- /.contacts-text -->
+
             </div>
             <!-- /.contacts-block -->
         </div>
     </footer>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
 </html>

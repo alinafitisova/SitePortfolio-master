@@ -40,12 +40,16 @@ body {
 .social-link {
   margin-left: 20px;
 }
+.social-link:first-child {
+  margin-left: 0;
+}
 .hero-content {
   display: flex;
   justify-content: space-between;
   align-items: start;
 }
 .hero-subtitle {
+  display: block;
   font-size: 24px;
   line-height: 28px;
   color: #FFBB01;
@@ -75,7 +79,7 @@ body {
   line-height: 14px;
   color: #2E2E30;
   text-transform: uppercase;
-}
+ }
 .hero-avatar {
   width: 389px;
   height: 389px;
@@ -94,7 +98,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-
+}
+.contacts-text {
+  flex-basis: 50% ;
 }
 .features-item {
   flex-basis: 30%;
@@ -128,7 +134,7 @@ body {
   box-shadow: -5px 5px 0px #FFC41D;
   border-radius: 5px;
 }
-form-title {  
+.form-title {  
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
@@ -139,7 +145,7 @@ form-title {
 }
 .input {
   background: #F8F8F8;
-  borrder: none;
+  border: none;
   box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
   border-radius: 5px;
   padding: 18px 20px;
@@ -152,5 +158,56 @@ form-title {
   margin-bottom: 17px;
   background-image: url('../img/user-icon.svg');
   background-repeat: no-repeat;
-  background-position: center left 20;
+  background-position: center left 20px;
+}
+.input-phone {
+  margin-bottom: 17px;
+  background-image: url('../img/phone-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center left 20px;
+}
+.form-button {
+  width: 100%;
+}
+.contacts-block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contacts-data {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 42px;
+
+}
+.contacts-phone, .contacts-mail {
+  flex-basis: 50%;
+  margin-bottom: 53px;
+}
+.contacts-social {
+  flex-basis: 100%;
+
+}
+.contacts-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.contacts-link{
+  text-decoration: none;
+  color: inherit;
+  margin-right: 37px;
+}
+.contacts-link:hover {
+  text-decoration: underline;
+}
+.contacts-policy {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #A5A5A5;
+  margin-top: 72px;
 }
