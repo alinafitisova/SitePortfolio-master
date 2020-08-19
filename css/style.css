@@ -150,5 +150,7 @@ form-title {
 }
 .input-name {
   margin-bottom: 17px;
-  background-image: url('..img');
+  background-image: url('../img/user-icon.svg');
+  background-repeat: no-repeat;
+  background-position: center left 20;
 }
