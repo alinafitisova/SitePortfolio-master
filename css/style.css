@@ -132,6 +132,9 @@ transform: matrix(1, 0, 0, -1, 0, 0);
   align-items: flex-start;
   justify-content: space-between;
 }
+.border-pic {
+  border-radius: 8px;
+}
 .project-text {
   flex-basis: 60%;
   display: flex;
