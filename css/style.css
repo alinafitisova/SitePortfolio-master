@@ -16,7 +16,7 @@ body {
 .section {
   padding-top: 64px;
   padding-bottom: 92px;
-  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+  background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
 }
 .section-title {
   margin: 0;
@@ -29,7 +29,7 @@ body {
 .hero {
   padding: 50px;
   padding-bottom: 155px;
-  
+  background: linear-gradient(0deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
 }
 .hero-header {
   display: flex;
@@ -92,7 +92,7 @@ body {
 }
 /* features */
 .features {
-  background-color: #00000;
+  background-color: #000000;
 }
 .features-block {
   display: flex;
@@ -123,9 +123,8 @@ body {
   margin: 0;
 }
 /* projecrts */
-.projects {
+.project {
 background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
-transform: matrix(1, 0, 0, -1, 0, 0);
 }
 .projects-slide {
   display: flex;
