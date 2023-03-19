@@ -416,10 +416,26 @@ form * {
   text-decoration: none;
   color: inherit;
   margin-right: 37px;
+} 
+.uk::before{
+  content:url('../img/features/ukraine.png');
 }
+.ca::before{
+  content:url('../img/features/canada.png');
+}
+/* .uk , 
+.ca {
+  position: absolute;
+  left: 50%;
+  margin-left: -8px;
+  top: -16px;
+} */
+
 .contacts-link:hover {
   text-decoration: underline;
+
 }
+
 .contacts-policy {
   display: inline-block;
   font-size: 15px;
